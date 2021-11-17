@@ -46,5 +46,4 @@ Para executar o projeto, foi utilizado o Jupyter Notebook para execução de có
  - [Claudiane Gomes](https://github.com/ClaudianeGomes0409)
  - [Walmylson Castro]()
 
-## Organização de diretórios
 
