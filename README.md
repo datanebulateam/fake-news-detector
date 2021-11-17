@@ -7,26 +7,29 @@ Este projeto realiza a detecção de notícias que podem ser ou não Fake News. 
 O objetivo principal do projeto é fazer a detecção de noticias Fake.
 
 - Organizar o projeto
- - Selecionar a melhor ferramenta para gerenciamento de tarefas
- - Registrar as tarefas em etapas, A fazer, Executando, Concluido e Impedimento
+  - Selecionar a melhor ferramenta para gerenciamento de tarefas
+  - Registrar as tarefas em etapas, A fazer, Executando, Concluido e Impedimento
 
 - Selecionar a base de dados
   - Selecionar a base de dados, primeiramente dentro da plataforma Kaggle
   - Criar uma nova base de dados com noticias do Brasil em português
  
 - Realizar a analise exploratória dos dados
-  - Verificar as váriaveis disponiveis
-  - Tipo de dados
+  - Identificar as váriaveis disponiveis, descreve-las e definir os tipos de dados
+  - Realizar transformação de variáveis (codificação)
+  - Tratar de valores faltantes e valores discrepantes
   - Realizar algumas visualizações gráficas
   - Compreender o DataFrame
 
-- 
+- Criar modelo de detecção de Fake News
+  - Realizar transformação de dados textuais utilixando o tf-idf
+  
 
 
 
 ## Conteúdo
 
-Utilize esta seção para descrever o que cada notebook faz. Se tiver gerado algum relatório, também utilize essa seção para descrevêlo. Isso facilitará a leitura.
+
 
 ## Utilização
 
