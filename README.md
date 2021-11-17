@@ -25,10 +25,15 @@ O objetivo principal do projeto é fazer a detecção de noticias Fake.
   - Realizar transformação de dados textuais utilixando o tf-idf
   
 
-
-
 ## Conteúdo
 
+Atualmente o projeto possui três arquivos de notebook
+
+00-AnaliseExploratoriaFakeNews: Neste notebook foi realizado a analise exploratória dos dados. Para tanto foi feito um pré tratamento dos dados, como alterações de tipos de variaveis, calculos para quantificar os valores das variaveis e a visualização dos dados, encerrando com as conclusões que foram feitas a partir da analise dos dados.
+
+01-Preparandoosdados: Esse notebook foi o de preparação dos dados frente a analise realizada anteriormente.
+
+02-Treinamentodomodelo: Esse notebook é onde está sendo executado o modelo de Classificação que irá classificar as noticias em verdadeiras ou falsas.
 
 
 ## Utilização
@@ -36,32 +41,10 @@ O objetivo principal do projeto é fazer a detecção de noticias Fake.
 Descreva aqui quais os passos necessários (dependências externas, comandos, etc.) para replicar o seu projeto. Instalação de dependências necessárias, criação de ambientes virtuais, etc. Este modelo é baseado em um projeto utilizando o [Poetry](https://python-poetry.org/) como gerenciador de dependências e ambientes virtuais. Você pode utilizar o `conda`, ambientes virtuais genéricos do Python ou até mesmo containers do docker. Mas tente fazer algo que seja facilmente reprodutível.
 
 ## Desenvolvedores
- - [Contribuidor 1](http://github.com/contribuidor_1)
- - [Contribuidor 2](http://github.com/contribuidor_2)
+ - [Alexsandro Lopes](http://github.com/contribuidor_1)
+ - [Crislane Maria](http://github.com/contribuidor_2)
+ - [Claudiane Gomes](https://github.com/ClaudianeGomes0409)
+ - [Walmylson Castro]()
 
 ## Organização de diretórios
 
-> **Nota**: essa seção é somente para entendimento do usuário do template. Por favor removê-la quando for atualizar este `README.md`
-
-```
-.
-├── data/                   # Diretório contendo todos os arquivos de dados (Geralmente está no git ignore ou git LFS)
-│   ├── external/           # Arquivos de dados de fontes externas
-│   ├── processed/          # Arquivos de dados processados
-│   └── raw/                # Arquivos de dados originais, imutáveis
-├── docs/                   # Documentação gerada através de bibliotecas como Sphinx
-├── models/                 # Modelos treinados e serializados, predições ou resumos de modelos
-├── notebooks/              # Diretório contendo todos os notebooks utilizados nos passos
-├── references/             # Dicionários de dados, manuais e todo o material exploratório
-├── reports/                # Análioses geradas como html, latex, etc
-│   └── figures/            # Imagens utilizadas nas análises
-├── src/                    # Código fonte utilizado nesse projeto
-│   ├── data/               # Classes e funções utilizadas para download e processamento de dados
-│   ├── deployment/         # Classes e funções utilizadas para implantação do modelo
-│   └── model/              # Classes e funções utilizadas para modelagem
-├── pyproject.toml          # Arquivo de dependências para reprodução do projeto
-├── poetry.lock             # Arquivo com subdependências do projeto principal
-├── README.md               # Informações gerais do projeto
-└── tasks.py                # Arquivo com funções para criação de tarefas utilizadas pelo invoke
-
-```
