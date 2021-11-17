@@ -41,7 +41,7 @@ Atualmente o projeto possui três arquivos de notebook
 Para executar o projeto, foi utilizado o Jupyter Notebook para execução de código em Python, as principais bibliotecas necessárias para a execução dos notebook foram Numpy e  Pandas para a manipulação dos dados, Seaborn e Matplotlib para visualização de gráficos estatísticos e o WordCloud para visualizar nuvens de palavras.
 
 ## Desenvolvedores
- - [Alexsandro Lopes](http://github.com/contribuidor_1)
+ - [Alexsandro Lopes](https://github.com/AlexsandroLBS)
  - [Crislane Maria](https://github.com/crislaneM)
  - [Claudiane Gomes](https://github.com/ClaudianeGomes0409)
  - [Walmylson Castro]()
