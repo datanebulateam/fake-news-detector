@@ -42,7 +42,7 @@ Para executar o projeto, foi utilizado o Jupyter Notebook para execução de có
 
 ## Desenvolvedores
  - [Alexsandro Lopes](http://github.com/contribuidor_1)
- - [Crislane Maria](http://github.com/contribuidor_2)
+ - [Crislane Maria](https://github.com/crislaneM)
  - [Claudiane Gomes](https://github.com/ClaudianeGomes0409)
  - [Walmylson Castro]()
 
