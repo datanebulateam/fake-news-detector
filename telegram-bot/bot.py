@@ -79,7 +79,7 @@ def predict(text):
         )
 
 
-model = load(open('models/modelofinal.joblib', 'rb'))
+model = load(open('../models/modelofinal.joblib', 'rb'))
 
 markup_confirm = types.ReplyKeyboardMarkup(row_width=2)
 markup_confirm.add(types.KeyboardButton("Sim"), types.KeyboardButton("Não"))
