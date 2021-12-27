@@ -12,10 +12,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 chave_api = "5051039864:AAFoaDyRNGrZMMZiIVSTPLMKSTHeYGN28OY"
 bot = telebot.TeleBot(chave_api)
 
-
-
-#connection = sqlite3.connect('tests_history.db', check_same_thread=False)
-connection = psycopg2.connect(host = 'ec2-54-157-113-118.compute-1.amazonaws.com',dbname = 'd22mcpr5tvgopu', user = 'pvhmxhskrwovep', password = '6bfea686194dada7754c63dd287ce3af48e7720e0c4f8af2536d223eaf8d5085')
+connection = psycopg2.connect(host = 'ec2-54-157-113-118.compute-1.amazonaws.com', dbname = 'd22mcpr5tvgopu', user = 'pvhmxhskrwovep', password = '6bfea686194dada7754c63dd287ce3af48e7720e0c4f8af2536d223eaf8d5085')
 cursor = connection.cursor()
 
 msg_feedback = 'Nos ajude deixando o seu feedback: Essa predição foi útil?'
@@ -57,7 +54,6 @@ def get_title(url):
 def predict(text):
     header = f'*Notícia detectada:* _{text}_'
     prob = model.predict_proba([text])[0][1]
-    #insert(text)
     
     
     if prob> 0.65:
